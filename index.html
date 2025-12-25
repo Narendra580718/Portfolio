@@ -3,39 +3,300 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Narendra</title>
+    <title>Cybersecurity Professional Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <div class="container">
-        <div class="glass-container">
-            <nav class="nav-bar">
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#home" class="logo">Narendra <span>Maharjan</span></a>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
                 <ul class="nav-links">
-                    <li class="nav-link"><a href="index.html">Home <hr></a></li>
-                    <li class="nav-link"><a href="https://github.com/">Github <hr></a></li>
-                    <li class="nav-link"><a href="about.html">About <hr></a></li>
-                    <li class="nav-link"><a href="contact.html">Contact <hr></a></li>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Qualifications">Qualifications</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
                 </ul>
             </nav>
+        </div>
+    </header>
 
-            <div class="content">
-                <div class="main">
-                    <h2>Welcome to my Portfolio</h2>
-                    <p>HI! My name is Narendra Maharjan and this is my portfolio. To know more about me, you can explore the website you're currently in.</p>
-
-                    <button><a href="contact.html">Contact Me?</a></button>
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container">
+            <div class="home-content">
+                <div class="home-text">
+                    <h1><span class="highlight">Ethical Hacking & Cybersecurity</span></h1>
+                    <p class="subtitle">HI! My name is Narendra Maharjan and this is my portfolio</p>
+                    <p>Cybersecurity learner specializing in Blue Team operations, including SIEM monitoring, alert investigation, and incident handling. Familiar with SOC tools, Windows Event Logs, network traffic analysis, and security best practices.</p>
+                    <a href="#contact" class="cta-button">Get In Touch</a>
                 </div>
+                <div class="home-image">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <div class="terminal-buttons">
+                                <div class="terminal-button close"></div>
+                                <div class="terminal-button minimize"></div>
+                                <div class="terminal-button maximize"></div>
+                            </div>
+                            <div class="terminal-title">terminal</div>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="terminal-line">
+                                <span class="terminal-prompt">$</span> whoami
+                            </div>
+                            <div class="terminal-line">
+                                <span class="terminal-prompt">&gt;</span>Narendra Maharjan - Security Analyst
+                            </div>
 
-                
+                            <div class="terminal-line">
+                                <span class="terminal-prompt">$</span> skills --list
+                            </div>
+                            
+                            <div class="terminal-line">
+                                <span class="terminal-prompt">&gt;</span> Network Security
+                            </div>
 
-                <div class="image-wrapper">
-                    <img src="picture\luffy.jpeg" alt="luffy">
+                            <div class="terminal-line">
+                                <span class="terminal-prompt">&gt;</span> Web App Security
+                            </div>
+                            
+                            <div class="terminal-line">
+                                <span class="terminal-prompt">&gt;</span> Incident Response
+                            </div>
+
+                            <div class="terminal-line">
+                                <span class="terminal-prompt">&gt;</span> Security Auditing
+                            </div>
+
+                            <div class="terminal-line">
+                                <span class="terminal-prompt">$</span> <span class="cursor"></span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Security through ethical hacking</h3>
+                    <p>Motivated cybersecurity graduate with a foundation in network security, ethical hacking, and risk management. Actively
+                    seeking an opportunity to gain hands-on experience in threat analysis, incident response, and real-world cybersecurity
+                    scenarios. Eager to sharpen technical expertise while receiving professional training and guidance from industry experts.
+                    </p>
+                                        
+                    <div class="skills">
+                        <div class="skill">Penetration Testing</div>
+                        <div class="skill">Vulnerability Assessment</div>
+                        <div class="skill">Network Security</div>
+                        <div class="skill">Web Application Security</div>
+                        <div class="skill">Cryptography</div>
+                        <div class="skill">Incident Response</div>
+                        <div class="skill">Security Auditing</div>
+                        <div class="skill">Malware Analysis</div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Cybersecurity Professional" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Education Section -->
+    <section id="Education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h2> BSc (Hons) Ethical Hacking and Cybersecurity</h2>
+                        <h3>Softwarica Collage of IT & E-commerce (Bachelors)</h3>
+                        <p>2022 - 2025</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
 
+    <!-- Qualifications Section -->
+    <section id="qualifications">
+        <div class="container">
+            <h2 class="section-title">Qualifications</h2>
+            <div class="timeline">
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Raechal Enterprises Pvt Ltd (2025 - 2026)</div>
+                        <h3>Security Opertaion Analyst - L1</h3>
+                        <p>Monitored security events, investigated incidents, and implemented security controls to protect organizational assets.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-date">Certifications</div>
+                        <h3>Red Team Leaders</h3>
+                        <p>Certified Cybersecurity Educator Professional</p><br>
+
+                        <h3>Security Blue Team</h3>
+                        <p>Introduction to Digital Forensic</p><br>
+
+                        <h3>CrowdStrike University</h3>
+                        <p>Falcon Data Protection</p>
+                        <p>Falcon Endpoint Protection</p>
+                        <p>Falcon Identity Protection</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Web Application Security" class="project-img">
+                    <div class="project-content">
+                        <h3>Intrusion Detection System (IDS)</h3>
+                        <p>Design and implementation of IDS (Intrusion Detection System)</p>
+                        <div class="project-tags">
+                            <span class="tag">Network Security</span>
+                            <span class="tag">Keymapping</span>
+                            <span class="tag">Code Review</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Vulnerability Assessment" class="project-img">
+                    <div class="project-content">
+                        <h3>Automated Auditing Toolkit</h3>
+                        <p>Design and implementation of an automate auditing toolkit for detecting security misconfiguration in Active Directory Environment with Natural Language Processing (NLP)
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Active Directory</span>
+                            <span class="tag">Natural Language Processing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Security Training" class="project-img">
+                    <div class="project-content">
+                        <h3>MITM testing and brute-forcing</h3>
+                        <p>Using "Airmon" tools/command-line, MITM (Man-in-the-Middle)
+                            testing was performed to gain access to the 3-way handshake file of a particular Wi-Fi network, and the password was cracked using bruteforcing.</p>
+                        <div class="project-tags">
+                            <span class="tag">Airmon</span>
+                            <span class="tag">Burp-suite</span>
+                            <span class="tag">Network Security</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Reach me using:</h3>
+                                        
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>Dyo580718@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Remote (Available Worldwide)</p>
+                            <p>Kathmandu, Nepal</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/Narendra580718" class="social-icon" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/narendra-maharjan-980941265/" class="social-icon" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+
+                <a href="#" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                
+            </div>
+            <p class="copyright">© 2023 Ethical Hacker Portfolio. All rights reserved. | Secure by design</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
